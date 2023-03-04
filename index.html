@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- aos css animated -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- my css -->
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio | Wafin Al Aufa</title>
@@ -43,7 +45,7 @@
     <section class="jumbotron text-center">
       <img src="img/pr1.png" alt="profile" width="200" class="img-thumbnail rounded-circle" />
       <h1 class="display-4">Orang Utan</h1>
-      <p class="lead">Animal | Grand Monkey | Cool Animal</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffff"
@@ -62,10 +64,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1500">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi deserunt veritatis blanditiis voluptatibus. Voluptates, incidunt! Eum iste aliquam quaerat voluptate.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos nobis blanditiis cupiditate iure aliquid quisquam enim, nulla necessitatibus vitae quidem nostrum, odio esse laudantium ducimus.</p>
           </div>
         </div>
@@ -88,7 +90,7 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-md-4 mb-3">
-              <div class="card">
+              <div class="card" data-aos="flip-right" data-aos-duration="1000">
                 <img src="img/picture/1.jpg" class="card-img-top" alt="picture 1" />
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -96,7 +98,7 @@
               </div>
             </div>
             <div class="col-md-4 mb-3">
-              <div class="card">
+              <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="100">
                 <img src="img/picture/2.jpg" class="card-img-top" alt="picture 2" />
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -104,7 +106,7 @@
               </div>
             </div>
             <div class="col-md-4 mb-3">
-              <div class="card">
+              <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="200">
                 <img src="img/picture/3.jpg" class="card-img-top" alt="picture 3" />
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -112,7 +114,7 @@
               </div>
             </div>
             <div class="col-md-4 mb-3">
-              <div class="card">
+              <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">
                 <img src="img/picture/4.jpg" class="card-img-top" alt="picture 4" />
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -120,7 +122,7 @@
               </div>
             </div>
             <div class="col-md-4 mb-3">
-              <div class="card">
+              <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="400">
                 <img src="img/picture/5.jpg" class="card-img-top" alt="picture 5" />
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -130,6 +132,40 @@
           </div>
         </div>
       </div>
+      <!-- CAT -->
+      <section class="cat" id="cat">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>CAT</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="cat-box">
+                <h4 class="cat-name">Normal Cat</h4>
+                <img src="img/thumb/cat1.png" alt="cat" class="cat-img" />
+                <a href="#" class="btn btn-light cat-detail">Show Detail</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="cat-box">
+                <h4 class="cat-name">Rare Cat</h4>
+                <img src="img/thumb/cat2.png" alt="cat" class="cat-img" />
+                <a href="#" class="btn btn-light cat-detail">Show Detail</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="cat-box">
+                <h4 class="cat-name">Super Cat</h4>
+                <img src="img/thumb/cat3.png" alt="cat" class="cat-img" />
+                <a href="#" class="btn btn-light cat-detail">Show Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Akhir CAT   -->
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffff"
@@ -139,6 +175,69 @@
       </svg>
     </section>
     <!-- akhir project -->
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/thumb/1.jpg" alt="gambar 1" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/thumb/2.jpg" alt="gambar 1" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/thumb/3.jpg" alt="gambar 1" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/thumb/4.jpg" alt="gambar 1" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/thumb/5.jpg" alt="gambar 1" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/thumb/6.jpg" alt="gambar 1" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/thumb/7.jpg" alt="gambar 1" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/thumb/8.jpg" alt="gambar 1" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/thumb/9.jpg" alt="gambar 1" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/thumb/10.jpg" alt="gambar 1" class="img-fluid gallery-img" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir gallery -->
     <!-- contact -->
     <section class="contact" id="contact">
       <div class="container">
@@ -175,6 +274,7 @@
           </div>
         </div>
       </div>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#0d6efd"
@@ -193,6 +293,38 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImg = document.querySelectorAll(".gallery-img");
+      galleryImg.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 200;
+        img.dataset.aosDuration = 1000;
+      });
+      AOS.init({
+        once: true,
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 2, delay: 1.5, text: "Animal | Grand Monkey | Cool Animal" });
+      gsap.from(".jumbotron img ", { duration: 1, rotateY: 120, opacity: 0 });
+      gsap.from(".navbar", { duration: 1.5, y: "-100%", ease: "bounce", opacity: 0 });
+      gsap.from(".display-4", { duration: 1, x: -50, opacity: 0, dilay: 0.5, ease: "back" });
+    </script>
+    <!-- vanilla tilt js -->
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".cat-box"), {
+        max: 35,
+        speed: 1000,
+        scale: 1.1,
+        glare: true,
+      });
+    </script>
+
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbyjdmi7acqLqlB-Q0__xSsAGWwUercLAJw0KWzLCoKHD41M9yJ9o57Xn5GDBLHKC-Ey/exec";
       const form = document.forms["submit-to-google-sheet"];
